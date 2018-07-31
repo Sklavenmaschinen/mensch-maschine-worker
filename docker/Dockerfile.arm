@@ -1,4 +1,4 @@
-FROM resin/raspberry-pi-openjdk:8-jdk
+FROM docker pull arm32v6/openjdk:8-jdk-alpine
 
 ARG ARTIFACT_NAME="mensch-maschine-worker"
 ARG ARTIFACT_VERSION="0.0.1-SNAPSHOT"
